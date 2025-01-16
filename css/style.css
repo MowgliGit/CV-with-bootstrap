@@ -2,6 +2,9 @@ body {
   overflow-x: hidden;
   max-width: 1400px;
   margin: 0 auto;
+  hyphens: auto;
+  word-wrap: break-word; 
+  overflow-wrap: break-word; 
 }
 .col-vertical {
   position: relative;
