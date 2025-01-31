@@ -3,8 +3,8 @@ body {
   max-width: 1400px;
   margin: 0 auto;
   hyphens: auto;
-  word-wrap: break-word; 
-  overflow-wrap: break-word; 
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 .col-vertical {
   position: relative;
@@ -36,7 +36,9 @@ body {
   display: inline-block;
   height: 2px;
 }
-
+i {
+  cursor: pointer;
+}
 @media (max-width: 998px) {
   .col-img {
     max-width: 250px;
